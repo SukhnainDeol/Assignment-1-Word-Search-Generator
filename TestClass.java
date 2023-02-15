@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-public class test 
+public class TestClass 
 {
     
-}
+} // end of TestClass class
