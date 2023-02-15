@@ -14,5 +14,13 @@
 
 class WordSearchGenerator 
 {
-
+    // print intro
+    // generate
+        //This method does the bulk of the work. It will prompt the user for how many words and what
+        // the words are and generate a word search based on those words
+    // print
+        //This method prints the current word search that has been generated.
+    // show solution
+        // use 2, 2 dimensional arrays
+        // This method prints the solution to the word search that has been generated.
 } // end of WordSearchGenerator class
