@@ -23,8 +23,8 @@ import java.util.*;
 
 class WordSearchGenerator 
 {
-    char[][] wordSearch = new char[10][10];
-    char[][] solvedWordSearch = new char[10][10];
+    char[][] wordSearch;
+    char[][] solvedWordSearch;
 
     // prob not needed
     public WordSearchGenerator()
@@ -38,7 +38,28 @@ class WordSearchGenerator
     // the words are and generate a word search based on those words
     public void generate(ArrayList<String> searchWords)
     {
-        
+        // turn into findLongest mehod?
+        int longest = searchWords[0].length();
+        // loops each element after 0
+        for (int i = 1; i < searchWords.length; i++)
+        {   // if element has longer length than current, reassign
+            if(searchWords[i].length() > longest)
+                {longest = searchWords[i].length();}
+        }
+        // make it at least enough space for all words?
+        solvedWordSearch = new int[longest][longest];
+        // iterate over each array
+        for(char[] i : arr)
+        {
+            // iterate over each element in each array
+            for(int j: i)
+            {   
+                //  each element in each array
+                System.out.print(i[j] + " ");
+            }
+            System.out.println(); // next line after each array 
+        }
+
     } // end of generate method
 
 
