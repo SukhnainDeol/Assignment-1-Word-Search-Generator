@@ -3,7 +3,13 @@
 // Date: 02/14/2023
 // Assignmnet: Lab 5: Tower Of Hanoi
 
-// Purpose: 
+// Purpose: Creates a menu for the user to interact 
+// with and createa word search
+
+// to do:
+    // comments 
+    // cleanup
+    // <84 char
 
 import java.util.*;
 
@@ -14,15 +20,21 @@ public class TestClass
         Scanner in = new Scanner(System.in);
         boolean inUse = true;
 
-        printIntro();
+        // welcome to user
+        System.out.println("Welcome to my word search generator!");
+        System.out.println("This program will allow you to generate you own word search puzzle");
 
         while(inUse)
         {
-            System.out.println("\n\nCommand: ");
-            String command = in.nextChar();
+            printIntro();
+
+            System.out.print("\n\nCommand: ");
+            String command = in.next();
             in.nextLine(); // clear inputs
 
-            switch(command)
+            // translates first letter of string into char
+            char input = command.charAt(0);
+            switch(input)
             {
                 case 'g':
                     // ask user for how many words
@@ -37,22 +49,26 @@ public class TestClass
                     // if word search is generated
                         // print solution word search array
                     break;
-                case 'q':
+                case 'q': // end program
                     inUse = false;
                     continue;
                 default:
                     System.out.println("ERROR: Incorrect Input");
                     break;
             } // end of switch/case
+
+            System.out.println("\n\nPress Enter To Continue");
+            in.nextLine(); // waits for user to press enter
         } // end of program loop
     } // end of main method
 
 
 
+    // parameters : None
+    // pre : None
+    // post : prints commands that user has access to 
     public static void printIntro()
     {
-        System.out.println("Welcome to my word search generator!");
-        System.out.println("This program will allow you to generate you own word search puzzle");
         System.out.println("Please Select an Option: ");
         System.out.println("g - Generate a New Word Search");
         System.out.println("p - Print out your Word Search");
