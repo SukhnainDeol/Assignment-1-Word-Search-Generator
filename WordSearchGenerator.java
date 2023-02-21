@@ -18,6 +18,24 @@
     // comments 
     // cleanup
     // <84 char
+     // procedure
+        // choose random coord
+        // choose random direction
+        // check if enough space & no other letters there
+        // recursive back tracking 100 times
+    // account for dynamic size
+        // width = longest word or length of # of words
+    // use a stack
+    // Need dynamic size
+        // Longest length > # of words?
+    // Doesn’t need to ask user how many
+    // Extra credit = overlap
+    // Use array
+        // 1 solution array w/ X
+            // What if user uses X in word?
+        // 1 with random
+
+
 
 import java.util.*;
 
