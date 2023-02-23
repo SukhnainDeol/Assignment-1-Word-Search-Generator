@@ -20,6 +20,16 @@ public class TestClass
         Scanner in = new Scanner(System.in);
         boolean inUse = true;
 
+        WordSearchGenerator test = new WordSearchGenerator();
+        String[] arr = {"Appl"};
+
+        test.generate(arr);
+
+        test.print();
+        System.out.println();
+        test.showSolution();
+        
+
         // welcome to user
         System.out.println("Welcome to my word search generator!");
         System.out.println("This program will allow you to generate you own word search puzzle");
@@ -60,6 +70,7 @@ public class TestClass
             System.out.println("\n\nPress Enter To Continue");
             in.nextLine(); // waits for user to press enter
         } // end of program loop
+        in.close();
     } // end of main method
 
 
