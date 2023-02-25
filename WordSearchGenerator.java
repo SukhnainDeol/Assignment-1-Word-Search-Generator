@@ -1,7 +1,7 @@
 // Programmer: Sukhnain Deol
 // Class: CS 145
 // Date: 02/14/2023
-// Assignmnet: Lab 5: Tower Of Hanoi
+// Assignment: Lab 5: Tower Of Hanoi
 
 // Purpose: Create a word search class that can generate
 // print, and display a solved version of a wordsearch
