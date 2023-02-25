@@ -94,7 +94,7 @@ class WordSearchGenerator
             {System.out.println("Words Removed: " + removedWords);}
         
         // creates actual word search
-        wordSearch = new char[solvedWordSearch.length][solvedWordSearch[0].length];
+        wordSearch = new char[longest][longest];
         // copies over solved word search
         copyArray(solvedWordSearch, wordSearch);
         // replaces 'X' with random lowercase letter
