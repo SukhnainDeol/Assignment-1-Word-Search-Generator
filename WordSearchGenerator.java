@@ -6,8 +6,6 @@
 // Purpose: Create a word search class that can generate
 // print, and display a solved version of a wordsearch
 
-// <84 char
-
 import java.util.*;
 
 class WordSearchGenerator
