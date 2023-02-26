@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-public class WordSearchMenu 
+public class WordSearchGeneratorMenu 
 {
     public static void main(String[] args)
     {
@@ -156,4 +156,4 @@ public class WordSearchMenu
         System.out.println("s - Show the Solution to your Word Search");
         System.out.println("q - Quit the Program");
     } // end of printCommands method
-} // end of TestClass class
+} // end of WordSearchGeneratorMenu class
