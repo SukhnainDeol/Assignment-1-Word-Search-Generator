@@ -8,5 +8,5 @@ Program Menu:
   - s - Show the Solution to your Word Search
   - q - Quit the Program
 
-
+  
 *This project was completed Winter 2023 as an assignment for Computer Science 145 at Whatcom Community College.*
