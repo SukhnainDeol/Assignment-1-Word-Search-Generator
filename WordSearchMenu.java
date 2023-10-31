@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-public class WordSearchMenu3 
+public class WordSearchMenu 
 {
     public static void main(String[] args)
     {
@@ -19,7 +19,7 @@ public class WordSearchMenu3
         boolean correctInt; 
         int wordCount = 0;
 
-        WordSearchGenerator3 test = new WordSearchGenerator3();
+        WordSearchGenerator test = new WordSearchGenerator();
         String[] words; // words to add to word search
 
         // welcomes user

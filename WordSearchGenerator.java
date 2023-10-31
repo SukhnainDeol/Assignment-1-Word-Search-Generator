@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-class WordSearchGenerator3
+class WordSearchGenerator
 {
     // holds playable word search
     char[][] wordSearch;
